@@ -1,0 +1,209 @@
+*
+{
+	margin: 0px;
+}
+body {
+	background-color: rgba(0,0,0,0);
+	font-family:  Arial, Helvetica, sans-serif,Times, serif;
+
+}
+header
+{
+    background-color: #05386b;
+    padding:10px;
+    margin:0;
+    overflow:hidden;
+    text-align: center;
+}
+header h1
+{
+	color:white;
+    	font-size: 2.2em;
+    	padding-top: 20px;
+}
+
+header img
+{
+    float:left;
+    width:80px;
+    height:80px;
+}
+
+.nav ul
+{
+
+    list-style-type:none ;
+    background-color: #659dbd;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+nav
+{
+	margin-top:100px;
+	position:fixed;
+	width:100%;
+}
+.nav li
+{
+    float:left;
+
+}
+
+.nav li a
+{
+    text-decoration: none;
+    padding:16px 70px ;
+    display:block;
+    color:black;
+    text-align: center;
+}
+
+.nav li a:hover
+{
+    background-color:#0b253f ;
+    color:white;
+}
+
+.nav li a.active
+{
+    background-color: #659dbd;
+    color:black;
+}
+
+body h2
+{
+    font-size:30px;
+    font-style: bold;
+    color:white;
+}
+body h1
+{
+    color:#0D4165;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.home{
+    width: 500px;
+    margin: 100px;
+    margin-left: 70px;
+}
+.quote{
+    float: right;
+    margin-right: 80px;
+}
+
+.quote h2{
+    color: #0D4165;
+    font-style: oblique;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.login {
+    width: 500px;
+    margin-left: 420px;
+    font-size: 16px;
+    position: fixed;
+    margin-top: 40px;
+    padding-top: 170px; 
+}
+/*.login {
+    float: left;
+    width: 500px;
+    margin-top: 50px;
+    font-size: 16px;
+    position: fixed;
+
+}*/
+.login-container register{
+    float: right;
+}
+
+
+.login-header,
+.login p {
+margin-top: 0;
+margin-bottom: 0;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+}
+
+
+.login-header {
+background: #0D4165;
+padding: 20px;
+font-size: 1.4em;
+font-weight: normal;
+text-align: center;
+text-transform: uppercase;
+color: #fff;
+}
+
+.login-container {
+background: #e2e5de;
+padding: 12px;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+padding: 12px;
+}
+
+.login input {
+box-sizing: border-box;
+display: block;
+width: 100%;
+padding: 16px;
+border: 1px solid black;
+font-family: inherit;
+font-size: 0.95em;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+background: #fff;
+border-color: #bbb;
+color: #555;
+}
+
+/* Text fields' focus effect */
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+border-color: #888;
+}
+
+.login input[type="submit"] {
+background: #0D4165;
+border-color: transparent;
+color: #fff;
+cursor: pointer;
+}
+input[type="submit"]
+{
+    background: #0D4165;
+    display: block;
+    padding: 10px;
+    border-radius: 25px;
+    width: 450PX;
+    height: 50px;
+    color: white;
+    margin-bottom: auto;
+
+}
+.login input[type="submit"]:hover {
+    background:#4682b4;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+border-color: #05a;
+}
+
+.reg
+{
+	color:#05386b;
+}

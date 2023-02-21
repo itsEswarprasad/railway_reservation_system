@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>MTTB</title>
+        <link rel="stylesheet" href="payment.css">
+    </head>
+    <body>
+        <header>
+            <img src="logo.png">
+            <h1 class="h">RAILWAY RESERVATION SYSTEM</h1>
+        </header>
+        
+        <div class="nav">
+            <ul>
+                <li><a class="active" href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="book.html">BOOK TICKET</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="registration.html">REGISTER</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+            <div class="login">
+                <h2 class="login-header">Confirm Your Payment</h2>
+                    <form class="login-container" action="success.html" method="post" target="_blank" id="input">
+                        Name on the Card
+                        <input type="text"size="65">
+                        <br><table >
+                            <tr>
+                        <td>Card Number
+                        <input type="text"size="45"></td>
+                    <td >CVV<input size="25px" align="right" id="cvv" type="text"size="10"></td></tr></table>
+
+                        <br>Total Amount
+                        <input type="text"size="65">
+                        <br>Expiration Date
+                        <table>
+                            <tr>
+                                <td>
+                        <select name="menu">
+                                <option> Jan</option>
+                                <option> Feb</option>
+                                <option>Mar</option>
+                                <option>Apr </option>
+                                <option>May</option>
+                                <option> June</option>
+                                <option> July</option>
+                                <option>Aug</option>
+                                <option>Sept</option>
+                                <option>Oct</option>
+                                <option>Nov</option>
+                                <option>Dec</option>
+
+                        </select>
+                        &nbsp;&nbsp;&nbsp;&nbsp
+                        <select name="menu">
+                            <option>2022   </option>
+                            <option> 2023</option>
+                            <option>2024</option>
+                            <option>2025 </option>
+                            <option>2026</option>
+                        </select>
+                        
+                        </td>
+
+                        <td>
+                            &nbsp;    &nbsp;<img src="t1.jpeg" width="50" height="50"/>
+                             <img src="t4.jpeg" width="50" height="50"/>
+                            <img src="t2.jpeg" width="50" height="50"/>
+                            <img src="t5.jpeg" width="50" height="50"/>
+
+
+                        </td>
+                    </tr>
+                    <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+
+                    <tr class="payment"><td align="right">
+                        <input type="submit" value="Make Payment"></td><td align="center"> <input type="reset" value="Reset"></td>
+
+                        </tr>
+                        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+
+                        </table>
+
+                    </form>
+            </div>
+    </body>
+</html>

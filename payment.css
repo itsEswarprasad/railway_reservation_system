@@ -1,0 +1,202 @@
+
+*
+{
+	margin: 0px;
+}
+body {
+    background-color: rgba(0,0,0,0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family:  Arial, Helvetica, sans-serif,Times, serif;
+}
+header
+{
+    background-color: #05386b;
+    padding:10px;
+    margin:0;
+    overflow:hidden;
+    text-align: center;
+}
+
+.h
+{
+	 color:white;
+	  font-size: 2.2em;
+    padding-top: 15px;
+    font-family: sans-serif;
+}
+ h1
+{
+    color:white;
+    font-size: 2.2em;
+}
+
+header img
+{
+    float:left;
+    width:80px;
+    height:80px;
+}
+
+.nav ul
+{
+
+    list-style-type:none ;
+    background-color: #659dbd;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+ 
+.nav li
+{
+    float:left;
+
+}
+
+.nav li a
+{
+    text-decoration: none;
+    padding:16px 70px ;
+    display:block;
+    color:black;
+    text-align: center;
+}
+
+.nav li a:hover
+{
+    background-color:#0b253f ;
+    color:white;
+}
+
+.nav li a.active
+{
+    background-color: #659dbd;
+    color:black;
+}
+body h1{
+    color:#0D4165;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+#cvv{
+    float: right;
+    align-items: flex-end;
+    padding-left: 20px;
+}
+.login {
+    width: 500px;
+    margin-left: 420px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+margin-top: 0;
+margin-bottom: 0;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+}
+
+
+.login-header {
+background: #0D4165;
+padding: 20px;
+font-size: 1.4em;
+font-weight: normal;
+text-align: center;
+text-transform: uppercase;
+color: #fff;
+}
+
+.login-container {
+background: #e2e5de;
+padding: 12px;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+padding: 12px;
+}
+
+.login input {
+box-sizing: border-box;
+display: block;
+width: 100%;
+border: 1px solid black;
+padding: 10px;
+font-family: inherit;
+font-size: 0.95em;
+box-shadow: 5px 5px 2px #aaaaaa;
+}
+input[type="text"]
+{
+	box-sizing: border-box;
+border: 2px solid black;
+border-radius: 4px;
+padding: 3px;
+box-shadow: 5px 5px 2px #aaaaaa;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+background: #fff;
+border-color: #bbb;
+color: #555;
+box-sizing: border-box;
+border: 2px solid black;
+border-radius: 4px;
+box-shadow: 5px 5px 2px #aaaaaa;
+}
+
+/* Text fields' focus effect */
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+border-color: #888;
+box-shadow: 5px 5px 2px #aaaaaa;
+}
+
+.login input[type="submit"],INPUT[TYPE="Reset"] {
+    background: #0D4165;
+    padding: 10px;
+    border-radius: 25px;
+    width: 220PX;
+    color: white;
+    box-shadow: 5px 5px 2px #aaaaaa;
+}
+input[type="Reset"]:hover {
+    background:#4682b4;
+    
+}
+.login input[type="submit"]:hover {
+    background: #4682b4;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+border-color: #05a;
+
+}
+form{
+    padding-left: 30px;
+    background: #e2e5de;
+
+    margin: auto;
+
+}
+select
+{
+width: 100px;
+box-sizing: border-box;
+border: 2px solid black;
+border-radius: 4px;
+padding: 3px;
+box-shadow: 5px 5px 2px #aaaaaa;
+}

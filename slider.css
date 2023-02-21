@@ -1,0 +1,50 @@
+#outerbox
+{
+	
+	z-index:-100;
+	width:500px;
+	height: 600px;
+	overflow: hidden;
+	padding-right: 5px;
+	padding-left: 150px;
+	
+}
+#sliderbox
+{
+	padding-top:200px;
+	position: relative;
+	animation: slide 15s infinite;
+}
+#sliderbox img
+{
+	width: 320px;
+	height: 400px;
+	float: right;
+}
+@keyframes slide
+{
+	0%
+	{
+		left:0px;
+	}
+	10%
+	{
+		left:0px;
+	}
+	20%
+	{
+		left:+200px;
+	}
+	30%
+	{
+		left:+400px;
+	}
+	40%
+	{
+		left:+600px;
+	}
+	100%
+	{
+		left:+900px;
+	}
+}
